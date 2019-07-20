@@ -1,15 +1,13 @@
 package garg.bhoomika;
-
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
 
 @Controller
-public class AddController 
-{
+public class AddController {
 	@RequestMapping("/add")
 	public void add()
 	{
-		System.out.println("I am here");
+	    System.out.println("I am here");
 	}
 
 }
